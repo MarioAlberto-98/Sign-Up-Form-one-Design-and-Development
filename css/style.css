@@ -1,0 +1,278 @@
+
+body{
+    background-color: rgb(253, 253, 253);
+  
+    
+}
+.principal{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.secone{
+    width: 500px;
+}
+.sectwo{
+    width: 610px;
+}
+
+.container{
+    margin-top: 170px;
+    margin-left: 100px;
+  
+    border-radius: 5px;
+   
+    overflow: hidden;
+    width: 400px;
+	max-width: 100%;
+    
+}
+.formulario{
+    padding: 30px 0px;
+}
+.seccionformulario{
+    margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+.seccionformulario label{
+
+    display: inline-block;
+    margin-bottom: 5px;
+
+}   
+.seccionformulario input{
+    border: 2px solid rgb(228, 228, 228);
+    border-radius: 6px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+   
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    width: 90%;
+}
+
+.seccionformulario input:focus{
+    outline: 0;
+    border-color: rgb(243, 243, 243);
+    background-color: rgb(243, 243, 243);
+}
+.seccionformulario.correcto input{
+    border-color: rgba(39, 216, 127, 0.897);
+    
+}
+.seccionformulario.error input{
+    border-color: #e74c3c;
+    
+}
+.seccionformulario i{
+    visibility: hidden;
+    position: absolute;
+    top: 35px;
+    right: 51px;
+}
+.seccionformulario.correcto i.fa-check-circle{
+    color: #2ecc71;
+	visibility: visible;
+
+}
+.seccionformulario.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.seccionformulario small{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    font-size: 14px;
+    color: rgb(189, 5, 5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+
+}
+.seccionformulario.error small{
+   
+    visibility: visible;
+
+}
+
+
+.formulario button{
+    background-color: #11c476;
+    border: 2px solid #13c97a;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    display: block;
+    
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+
+
+
+
+
+.imgpres{
+margin-top: 30px;
+    margin-left: 150px;
+  
+
+
+}
+
+/* vectores de undrawn  */
+.imgside{
+    width:450px ;
+height: 300px;
+
+   
+}
+.textodibujo{
+margin-top: 200px;
+margin-left: 240px;
+font-family: 'Source Sans Pro', sans-serif;
+    font-size: 50px;
+
+
+}
+.descripciondibujo{
+
+    margin-top: 20px;
+    margin-left: 180px;
+    font-family: 'Lato', sans-serif;
+        font-size: 23px;
+        color: gray;
+
+
+}
+.registitle{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    
+}
+
+.regisdescripcion{
+    margin-top: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: rgb(88, 88, 88);
+}
+.textobox{
+    font-family: 'Lato', sans-serif;
+}
+
+
+@media(max-width:1150px){
+
+    .sectwo{
+        width: 400px;
+    }
+   
+    .imgpres{
+    margin-top: 30px;
+        margin-left: 70px;
+ 
+    }
+    
+    /* vectores de undrawn  */
+    .imgside{
+        width:450px ;
+    height: 300px;
+         
+    }
+    .textodibujo{
+    margin-top: 200px;
+    margin-left: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+        font-size: 50px;  
+    }
+    .descripciondibujo{ 
+        margin-top: 20px;
+        margin-left: 100px;
+        font-family: 'Lato', sans-serif;
+            font-size: 23px;
+            color: gray;
+    }
+   
+}
+
+@media(max-width:1020px){
+
+    .sectwo{
+        width: 300px;
+    }
+   
+    .imgpres{
+    margin-top: 30px;
+        margin-left: 40px;
+ 
+    }
+    
+    /* vectores de undrawn  */
+    .imgside{
+        width:250px ;
+    height: 150px;
+         
+    }
+    .textodibujo{
+    margin-top: 200px;
+    margin-left: 70px;
+    font-family: 'Source Sans Pro', sans-serif;
+        font-size: 30px;  
+    }
+    .descripciondibujo{ 
+        margin-top: 20px;
+        margin-left: 70px;
+        font-family: 'Lato', sans-serif;
+            font-size: 18px;
+            color: gray;
+    }
+   
+}
+
+
+@media(max-width:920px){
+
+    .secone{
+        width: 470px;
+    }
+    .sectwo{
+        visibility: hidden;
+    }
+    .container{
+        margin-top: 100px;
+        margin-left: 50px;
+      
+        border-radius: 5px;
+       
+        overflow: hidden;
+        width: 400px;
+        max-width: 100%;
+        
+    }
+    .registitle{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 35px;
+        
+    }
+    
+    .regisdescripcion{
+        margin-top: 5px;
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+        color: rgb(88, 88, 88);
+    }
+    .textobox{
+        font-family: 'Lato', sans-serif;
+        font-size: 15px;
+    }
+    
+}
